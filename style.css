@@ -79,8 +79,6 @@ p {
 .box-img img {
   width: 41%;
 }
-.mission {
-}
 /* Mission section end here  */
 
 /* Office section start  */
@@ -96,4 +94,15 @@ p {
 }
 .office-text {
   width: 40%;
+}
+.develop {
+  text-align: left;
+}
+
+footer {
+  background: #000000;
+  padding: 0 50px;
+}
+#footer-content {
+  text-align: center;
 }
