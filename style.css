@@ -19,7 +19,6 @@ h1 {
   font-family: "Yeseva One", cursive;
   margin-left: 15px;
   font-size: 52px;
-  font-weight: 400;
   color: #333333;
 }
 span {
@@ -81,7 +80,7 @@ p {
 }
 /* Mission section end here  */
 
-/* Office section start  */
+/* Office section start.......  !Reuse simillar code here!  */
 .Develop,
 .community {
   display: flex;
@@ -102,6 +101,7 @@ p {
 }
 .develop {
   text-align: left;
+  font-weight: 700;
   margin: 0;
 }
 .doc-btn {
@@ -120,17 +120,25 @@ p {
 .community {
   margin-top: 130px;
 }
+/* Office section end here  */
 
+/* Contact section start here  */
 .Contact {
   width: 70%;
   display: flex;
   margin: auto;
   justify-content: center;
   align-items: center;
-  transform: translate(-5%, 34%);
+  transform: translate(-5%, 16%);
   background: #edf5f6;
   padding-top: 55px;
   border-radius: 10px;
+  margin-bottom: 152px;
+}
+#image-header {
+  text-align: center;
+  font-family: "Yeseva One";
+  font-size: 45px;
 }
 #header-content {
   text-align: center;
@@ -142,13 +150,9 @@ p {
 .image img {
   width: 100%;
 }
-#image-header {
-  text-align: center;
-}
+
 .form {
   width: 41%;
-}
-.form_content {
 }
 .form_content input {
   width: 93%;
@@ -166,11 +170,15 @@ p {
   width: auto;
   color: white;
 }
+/* Contact section end here  */
 
-/* footer {
+/* Footer section start here  */
+footer {
+  padding: 35px 0px;
   background: #000000;
-  padding: 0 50px;
+  color: #fff;
 }
-#footer-content {
+#footer-text {
   text-align: center;
-} */
+}
+/* Footer section end here  */
