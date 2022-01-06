@@ -49,7 +49,7 @@ p {
 /* Mission section start here  */
 
 #mission-heading {
-  font-size: 40px;
+  font-size: 44px;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -166,9 +166,11 @@ p {
   width: 98%;
 }
 .form_content input[type="submit"] {
-  background-color: #6c63ff;
+  background-color: #ff5959;
   width: auto;
   color: white;
+  border-radius: 7px;
+  text-transform: uppercase;
 }
 .form_content input:focus-visible,
 .form_content textarea:focus-visible {
