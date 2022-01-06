@@ -82,27 +82,49 @@ p {
 /* Mission section end here  */
 
 /* Office section start  */
-.Develop {
+.Develop,
+.community {
   display: flex;
+  align-items: center;
 }
-.office-image img {
+.office-image img,
+.community-image img {
   width: 60%;
 }
-.office-image {
+.office-image,
+.community-image {
   width: 39%;
   margin-left: 10%;
 }
-.office-text {
+.office-text,
+.community-content {
   width: 40%;
 }
 .develop {
   text-align: left;
+  margin: 0;
+}
+.doc-btn {
+  padding: 14px 50px;
+  background: #ff5959;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 7px;
+}
+.community-image {
+  margin-right: 0;
+}
+.community-content {
+  margin-left: 10%;
+}
+.community {
+  margin-top: 130px;
 }
 
-footer {
+/* footer {
   background: #000000;
   padding: 0 50px;
 }
 #footer-content {
   text-align: center;
-}
+} */
